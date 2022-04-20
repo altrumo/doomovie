@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Main: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            MoviesList().ignoresSafeArea()
+        }.background(DooBackground())
     }
 }

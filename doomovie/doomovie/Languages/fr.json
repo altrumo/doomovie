@@ -1,0 +1,23 @@
+{
+    "of": "de",
+    "language": "Langage",
+    "language-ar": "Argentin",
+    "language-es": "Espagnol",
+    "language-en": "Anglais",
+    "language-pt": "Portugais",
+    "rating":"Ponctuation",
+    "rating-0-text":"Cauchemar",
+    "rating-1-text":"Catastrophique",
+    "rating-2-text":"Très pauvre",
+    "rating-3-text":"Déficient",
+    "rating-4-text":"Insuffisant",
+    "rating-5-text":"Passé",
+    "rating-6-text":"Bien",
+    "rating-7-text":"Bonne",
+    "rating-8-text":"Très bonne",
+    "rating-9-text":"Excellent",
+    "rating-10-text":"Chef-d'œuvre",
+    "summary": "Résumé",
+    "vote":"Vote",
+    "votes":"Votes"
+}

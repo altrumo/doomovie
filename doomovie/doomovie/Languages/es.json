@@ -1,0 +1,23 @@
+{
+    "of": "de",
+    "language": "Idioma",
+    "language-ar": "Árabe",
+    "language-es": "Español",
+    "language-en": "Inglés",
+    "language-pt": "Portugués",
+    "rating":"Puntuación",
+    "rating-0-text":"Pesadilla",
+    "rating-1-text":"Desastroso",
+    "rating-2-text":"Muy deficiente",
+    "rating-3-text":"Deficiente",
+    "rating-4-text":"Suspenso",
+    "rating-5-text":"Aprobado",
+    "rating-6-text":"Bien",
+    "rating-7-text":"Buena",
+    "rating-8-text":"Muy buena",
+    "rating-9-text":"Excelente",
+    "rating-10-text":"Obra maestra",
+    "summary": "Resumen",
+    "vote":"Voto",
+    "votes":"Votos"
+}
