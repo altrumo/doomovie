@@ -12,10 +12,7 @@ struct DooBackground: View {
     var body: some View {
         ZStack{
             Image("collage").resizable().scaledToFill().frame(maxWidth: .infinity, maxHeight: .infinity).clipped()
-            Color.black.opacity(appEnvironment.isVisibleContent ? 0.95 : 0.95)
-            /*if(!appEnvironment.isVisibleContent){
-                LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom)
-            }*/
+            Color.black.opacity(0.95)
         }.ignoresSafeArea()
     }
 }

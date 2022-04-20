@@ -18,5 +18,5 @@ struct app: App {
 }
 
 class AppEnvironment: ObservableObject{
-    @Published var isVisibleContent = false
+    @Published var loading = false
 }

@@ -228,9 +228,9 @@
 			isa = PBXGroup;
 			children = (
 				7FAFB699280F8E86004E0E1D /* HapticsUtil.swift */,
-				7FAFB6A32810081C004E0E1D /* ViewUtil.swift */,
-				7FAFB6A9281011CF004E0E1D /* RatingUtil.swift */,
 				7FAFB6B5281014F5004E0E1D /* LocalizationUtil.swift */,
+				7FAFB6A9281011CF004E0E1D /* RatingUtil.swift */,
+				7FAFB6A32810081C004E0E1D /* ViewUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
