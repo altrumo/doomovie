@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MoviesList: View {
+    @EnvironmentObject var appEnvironment: AppEnvironment
     @State var movies: [Movie] = []
     @State var pageSelected: Int = 1
     @State var totalPages: Int = 1
@@ -34,12 +35,14 @@ struct MoviesList: View {
 
 extension MoviesList{
     func getMovies(){
+        appEnvironment.loading = true
         MovieService().getMovies(page: pageSelected){ response in
             if(response != nil){
                 movies = response!.results ?? []
                 totalPages = response!.total_pages ?? 1
                 totalResults = response!.total_results ?? 1
             }
+            appEnvironment.loading = false
         }
     }
 }
