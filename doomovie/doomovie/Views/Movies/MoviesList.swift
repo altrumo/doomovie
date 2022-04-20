@@ -20,13 +20,9 @@ struct MoviesList: View {
                     ForEach(movies, id: \.id){ movie in
                         MoviesListRow(movie: movie).padding(.horizontal)
                     }
-                }
+                }.padding(.bottom, 100)
             }.background(DooBackground()).navigationBarHidden(true).overlay(
-                DooPagination(pageSelected: $pageSelected, totalPages: totalPages)
-                /*VStack(spacing: 0){
-                    LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom).frame(width: UIScreen.main.bounds.width, height: 50)
-                    Rectangle().fill(Color.black).frame(width: UIScreen.main.bounds.width, height: 100)
-                }*/, alignment: .bottom)//.ignoresSafeArea(edges: .bottom)
+                DooPagination(pageSelected: $pageSelected, totalPages: totalPages), alignment: .bottom)
             }
         }.onAppear{
             getMovies()

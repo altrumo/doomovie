@@ -1,0 +1,23 @@
+{
+    "of": "of",
+    "language": "Language",
+    "language-ar": "Argentinian",
+    "language-es": "Spanish",
+    "language-en": "English",
+    "language-pt": "Portuguese",
+    "rating":"Rating",
+    "rating-0-text":"Nightmare",
+    "rating-1-text":"Disaster",
+    "rating-2-text":"Very poor",
+    "rating-3-text":"Poor",
+    "rating-4-text":"Insufficient",
+    "rating-5-text":"Passed",
+    "rating-6-text":"Cool",
+    "rating-7-text":"Good",
+    "rating-8-text":"Very good",
+    "rating-9-text":"Excelent",
+    "rating-10-text":"Masterpiece",
+    "summary": "Summary",
+    "vote":"Vote",
+    "votes":"Votes"
+}

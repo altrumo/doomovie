@@ -16,5 +16,5 @@ class ConfigService{
     public let urlBase:String = "https://api.themoviedb.org/3/tv/popular"
     public let urlBaseImage: String = "https://image.tmdb.org/t/p/w500"
     public let apiKey: String = "c6aeee577586ba38e487b74dfede5deb"
-    public let language: String = "es-SP"
+    public let language: String = LocalizationUtil().getLanguage()
 }

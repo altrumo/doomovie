@@ -8,21 +8,21 @@
 import SwiftUI
 
 struct MovieDetail: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    var movie: Movie
+    var movie:Movie
+    
     var body: some View {
         ZStack{
-            VStack{
-                HStack{
-                    DooButton(iconName: "chevron.left", type: .icon, action:{
-                        presentationMode.wrappedValue.dismiss()
-                    })
-                    Spacer()
-                }
-                Spacer()
-            }
-            DooText(text: movie.name ?? "")
+            DooBackground()
+            ScrollView(showsIndicators: false){
+                VStack(alignment: .leading){
+                    MovieDetailHeader(movie: movie)
+                    VStack(alignment: .leading, spacing: 60){
+                        MovieDetailSummary(movie: movie)
+                        MovieDetailRating(movie: movie)
+                    }.padding(.top, 100)
+                }.padding(.bottom, 100)
+            }.ignoresSafeArea()
         }
-        
     }
 }
+

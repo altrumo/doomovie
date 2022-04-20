@@ -19,7 +19,7 @@ struct Movie: Decodable {
     var overview: String?
     var popularity: CGFloat?
     var poster_path: String?
-    var vote_average: CGFloat?
-    var vote_count: CGFloat?
+    var vote_average: Double?
+    var vote_count: Int?
 }
 

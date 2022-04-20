@@ -1,0 +1,23 @@
+{
+    "of": "aus",
+    "language": "Sprache",
+    "language-ar": "Argentinisch",
+    "language-es": "Spanisch",
+    "language-en": "Englisch",
+    "language-pt": "Portugiesisch",
+    "rating":"Interpunktion",
+    "rating-0-text":"Alptraum",
+    "rating-1-text":"Katastrophal",
+    "rating-2-text":"Sehr arm",
+    "rating-3-text":"Mangelhaft",
+    "rating-4-text":"Unzureichend",
+    "rating-5-text":"Genügend",
+    "rating-6-text":"Gut",
+    "rating-7-text":"Gut",
+    "rating-8-text":"Sehr gut",
+    "rating-9-text":"Exzellent",
+    "rating-10-text":"Meisterstück",
+    "summary": "Fortsetzen",
+    "vote":"Abstimmung",
+    "votes":"Stimmen"
+}

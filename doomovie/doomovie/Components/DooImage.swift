@@ -33,18 +33,18 @@ struct DooImage: View {
 
 extension DooImage{
     func getImage(){
-        //if let imageFound = CoreDataManager.shared.getImage(id: setId()){
-        //    self.image = UIImage(data: imageFound.data!) ?? UIImage()
-        //}else{
+        if let imageFound = CoreDataManager.shared.getImage(id: path ?? ""){
+            self.image = UIImage(data: imageFound.data!) ?? UIImage()
+        }else{
             downloadImage()
-        //}
+        }
     }
     
     func downloadImage(){
         ImageService().getImage(path: path ?? ""){ response in
             if(response != nil){
                 self.image = UIImage(data: response!)
-                //CoreDataManager().saveImage(id:setId(), data: response!)
+                CoreDataManager().saveImage(id: path ?? "", data: response!)
             }
         }
     }

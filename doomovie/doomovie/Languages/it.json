@@ -1,0 +1,23 @@
+{
+    "of": "a partire dal",
+    "language": "Linguaggio",
+    "language-ar": "Argentino",
+    "language-es": "Spagnolo",
+    "language-en": "Inglese",
+    "language-pt": "Portoghese",
+    "rating":"Punteggiatura",
+    "rating-0-text":"Incubo",
+    "rating-1-text":"Disastroso",
+    "rating-2-text":"Molto povero",
+    "rating-3-text":"Povero",
+    "rating-4-text":"Insufficiente",
+    "rating-5-text":"Passato",
+    "rating-6-text":"Bene",
+    "rating-7-text":"Bene",
+    "rating-8-text":"Molto buona",
+    "rating-9-text":"Eccellente",
+    "rating-10-text":"Capolavoro",
+    "summary": "Riprendere",
+    "vote":"Votazione",
+    "votes":"Voti"
+}
